@@ -1,10 +1,11 @@
 import { useState } from "react";
 import "./App.css";
+import Header from "../Header/Header";
 
 function App() {
   return (
     <div className="page">
-      <h1>Hair by Vicky</h1>
+      <Header />
     </div>
   );
 }

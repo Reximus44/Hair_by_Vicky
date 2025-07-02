@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  background-color: #6d62d1;
+  padding: 20px;
+  justify-content: space-around;
+  text-align: space-between;
+  font-family: "Arial", sans-serif;
+  width: 100vw;
+}
+
+.header__nav {
+  display: flex;
+}

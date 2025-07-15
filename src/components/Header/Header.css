@@ -1,13 +1,32 @@
 .header {
   display: flex;
+  flex-direction: column;
   background-color: #6d62d1;
-  padding: 20px;
   justify-content: space-around;
-  text-align: space-between;
   font-family: "Arial", sans-serif;
   width: 100vw;
+  align-items: center;
+  margin: 0;
 }
 
-.header__nav {
-  display: flex;
+.header__logo {
+  height: 50px;
 }
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  column-gap: 20px;
+}
+
+.nav__link {
+  color: #000000;
+  display: flex;
+  text-decoration: none;
+}
+
+/* * {
+  outline: thin solid red;
+} */

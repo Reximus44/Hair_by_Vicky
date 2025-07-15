@@ -1,17 +1,33 @@
 import "./Header.css";
+import headerLogo from "../../vendor/images/header_logo.png";
 import { useContext } from "react";
 
 function Header() {
-    return (
-        <header className="header">
-            <h1 className="header__title">Hair by Vicky</h1>
-            <nav className="header__nav">
-                <a href="#services" className="header__link">Services</a>
-                <a href="#about" className="header__link">About</a>
-                <a href="#contact" className="header__link">Contact</a>
-            </nav>
-        </header>
-    );
+  return (
+    <div>
+      <header className="header">
+        <h1 className="header__title">Hair by Vicky</h1>
+        <img src={headerLogo} alt="butterfly logo" className="header__logo" />
+        <ul className="nav__links">
+          <li>
+            <a href="#services" className="nav__link">
+              Services
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="nav__link">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#contacts" className="nav__link">
+              Contacts
+            </a>
+          </li>
+        </ul>
+      </header>
+    </div>
+  );
 }
 
-export default Header; 
+export default Header;

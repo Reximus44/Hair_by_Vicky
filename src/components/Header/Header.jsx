@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./Header.css"
 import headerLogo from "../../vendor/images/header_logo.png";
 import { useContext } from "react";
 

@@ -1,4 +1,4 @@
-import "./Header.css"
+import "./Header.css";
 import headerLogo from "../../vendor/images/header_logo.png";
 import { useContext } from "react";
 
@@ -6,8 +6,11 @@ function Header() {
   return (
     <div>
       <header className="header">
-        <h1 className="header__title">Hair by Vicky</h1>
-        <img src={headerLogo} alt="butterfly logo" className="header__logo" />
+        <div className="header__container">
+          <img src={headerLogo} alt="butterfly logo" className="header__logo" />
+          <h1 className="header__title">Hair by Vicky</h1>
+          <img src={headerLogo} alt="butterfly logo" className="header__logo" />
+        </div>
         <ul className="nav__links">
           <li>
             <a href="#services" className="nav__link">

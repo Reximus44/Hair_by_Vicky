@@ -1,0 +1,10 @@
+i react scroll if using react router
+npm install react-scroll
+
+// example code snippet 
+import { Link } from 'react-scroll';
+
+<Link to="about" smooth={true} duration={500}>
+  Go to About
+</Link>
+

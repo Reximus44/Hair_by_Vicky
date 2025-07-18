@@ -6,11 +6,28 @@
   font-family: "Arial", sans-serif;
   width: 100vw;
   align-items: center;
+  font-family: "GreatVibes", sans-serif;
+  /* not working? ask for help */
+  position: sticky;
+  top: 0;
+}
+
+.header__container {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.header__title {
   margin: 0;
+  padding: 0;
+  margin: 25px;
+  font-size:xx-large;
 }
 
 .header__logo {
   height: 50px;
+  margin: 25px;
 }
 
 .nav__links {
@@ -18,7 +35,10 @@
   flex-direction: row;
   list-style-type: none;
   margin: 0;
-  column-gap: 20px;
+  padding: 0;
+  column-gap: 30px;
+  margin: 25px;
+  font-size: x-large;
 }
 
 .nav__link {

@@ -7,3 +7,5 @@ function Footer() {
     <p className="footer__year">2025</p>
   </div>;
 }
+
+export default Footer; 

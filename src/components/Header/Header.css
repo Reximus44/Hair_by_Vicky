@@ -7,22 +7,21 @@
   width: 100vw;
   align-items: center;
   font-family: "GreatVibes", sans-serif;
-  /* not working? ask for help */
-  position: sticky;
+  position: fixed;
   top: 0;
 }
 
 .header__container {
-display: flex;
-flex-direction: row;
-align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header__title {
   margin: 0;
   padding: 0;
   margin: 25px;
-  font-size:xx-large;
+  font-size: xx-large;
 }
 
 .header__logo {

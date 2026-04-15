@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 25px;
+  padding: 0;
+  margin-top: 177.594px;
+}
+
+.main__services {
+  margin-top: -177.594px;
+  padding-top: 177.594px;
+}
+
+.main__about {
+  margin-top: -177.594px;
+  padding-top: 177.594px;
+}
+
+.main__contacts {
+  margin-top: -177.594px;
+  padding-top: 177.594px;
+}

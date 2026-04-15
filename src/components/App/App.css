@@ -4,4 +4,6 @@
   align-items: center;
   min-height: 100vh;
   background-color: #8d84db;
+  height: 100vh;
+  overflow: scroll;
 }
